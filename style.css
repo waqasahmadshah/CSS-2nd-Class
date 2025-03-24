@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(145, 137, 153, 0);
+    color: White;
+}
+.hsl1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #e0167b;
+}
+.rgb{
+    color: rgb(217, 217, 15);
+    padding: 15px;
+}
