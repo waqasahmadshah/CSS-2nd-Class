@@ -1,19 +1,22 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
 }
-body{
-    background-color: rgba(145, 137, 153, 0);
-    color: White;
+.color-box {
+    width: 200px;
+    height: 100px;
+    margin: 10px 0;
+    padding: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-weight: bold;
 }
-.hsl1{
-    text-align: center;
-    font-size: 3rem;
-    font-weight: 700;
-    color: #e0167b;
-}
-.rgb{
-    color: rgb(217, 217, 15);
-    padding: 15px;
-}
+.named { background-color: tomato; }
+.hex { background-color: #3498db; }
+.rgb { background-color: rgb(46, 204, 113); }
+.rgba { background-color: rgba(241, 196, 15, 0.8); }
+.hsl { background-color: hsl(120, 100%, 50%); }
+.hsla { background-color: hsla(240, 100%, 50%, 0.5); }
