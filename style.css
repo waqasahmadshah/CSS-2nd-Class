@@ -47,3 +47,37 @@
     line-height: 30px;
     text-transform: capitalize;
  }
+
+ .border-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+ }
+ .box{
+    background-image: url(/CompressJPEG.Online_img\(500x500\).jpg);
+    background-size:cover;
+    background-position: center;
+    background-attachment:scroll;
+    padding: 30px 30px;
+    justify-items: center;
+    text-align: center;
+    color:darkred;
+    font-size: 1.5rem;
+    font-weight: 700;
+    /* width: 200px;
+    height: 100px; */
+ }
+ .solid{
+    border: 13px solid purple;
+ }
+.dotted{
+    border: 5px dotted green;
+}
+.duble{
+    border: 11px double black;
+}
+.dashed{
+    border: 5px dashed #a414ba;
+}
